@@ -8,7 +8,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int black = 0;
         int paper = Integer.parseInt(br.readLine());
-        boolean[][] white = new boolean[101][101];
+        boolean[][] white = new boolean[101][101]; //2차원 배열인 하얀도화지를 boolean형으로 받는 것은 구글링으로 알게됨!
         for(int i = 0; i < paper; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             int x = Integer.parseInt(st.nextToken());
