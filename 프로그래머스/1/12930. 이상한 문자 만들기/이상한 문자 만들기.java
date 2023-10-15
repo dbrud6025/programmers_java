@@ -4,7 +4,7 @@ class Solution {
             return "";
         }
 
-        String[] words = s.split(" ", -1); // Use -1 to keep trailing empty strings
+        String[] words = s.split(" ", -1); 
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < words.length; i++) {
