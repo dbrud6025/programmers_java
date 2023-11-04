@@ -13,9 +13,9 @@ class Solution {
 		}
 		Collections.sort(number); //오름차순 정렬해서 맨 앞 숫자 + 공백 + 맨 뒤 숫자 (어차피 세 개만 더하니까!)
 		
-		sb.append(Integer.toString(number.get(0)));
+		sb.append(number.get(0));
 		sb.append(" ");
-		sb.append(Integer.toString(number.get(number.size()-1)));
+		sb.append(number.get(number.size()-1));
 		
 		return sb.toString();
     }
